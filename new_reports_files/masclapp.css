@@ -1,0 +1,217 @@
+.columna_right {
+  width: 100%;
+}
+.sidebar {
+  width: 20%;
+  background-color: #4d70af;
+}
+#menu_principal li a {
+  display: block;
+  padding: 10px;
+  margin: 5px 0 3px 5px;
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  border-bottom: 0px;
+}
+.MasClapp__brand {
+  background-color: #006bb3;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.MasClapp__info {
+  padding: 20px 20px 0 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -o-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-box-direction: reverse;
+  -moz-box-direction: reverse;
+  -o-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.MasClapp__container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.user__image {
+  float: right;
+  margin-top: 40px;
+}
+.user__info {
+  margin-right: 20px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+}
+.user__info a.btn_salir {
+  font-size: 16px;
+  color: #f5ff97;
+}
+.div_foto_usuario{
+	background-image:url("/master/perfil/foto_perfil/");
+	background-size: cover;	
+	height: 40px;
+	width: 40px;
+	float: right;
+	background-color:#FFF;
+	display: inline; 
+	border-radius:5px; 
+	-moz-border-radius:5px; /* Firefox */ 
+	-webkit-border-radius:5px; /* Safari y Chrome */
+}
+.logo_master_menu{
+	background-image:url("../img/logo_masterclass.svg");	
+	background-size: contain; 
+	height: 100px;
+	width: 200px;
+	margin-left: 5px; 
+  padding-top: 5px;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none; 
+}
+
+.submenu:hover{
+  background-color:#375c93;
+}
+
+ul#menu_principal li span#administracion-icono{
+  background-image:url("/master/images/menu/blue_administracion-22.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px; 
+  width: 29px;
+  float:left;
+  margin: -4px 4px 0px 0px;
+
+}
+
+ul#menu_principal li:hover span#administracion-icono{
+  background-image:url("/master/images/menu/white_administracion-07.svg");
+}
+
+ul#menu_principal li span#capacitacion-icono{
+  background-image:url("../images/menu/blue_capacitacion-22.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 29px;
+  float:left;
+  margin: -4px 4px 0px 0px;
+}
+ul#menu_principal li:hover span#capacitacion-icono{
+  background-image:url("../images/menu/white_capacitacion-08.svg");
+}
+
+ul#menu_principal li span#catalogos-icono{
+  background-image:url("../images/menu/blue_catalogo-20.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 29px;
+  float:left;
+  margin: -4px 4px 0px 0px;
+}
+ul#menu_principal li:hover span#catalogos-icono{
+  background-image:url("../images/menu/white_catalogo-09.svg");
+}
+
+ul#menu_principal li span#evaluaciones-icono{
+  background-image:url("../images/menu/blue_evaluaciones-19.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 29px;
+  float:left;
+  margin: -4px 7px 0px -3px;
+}
+ul#menu_principal li:hover span#evaluaciones-icono{
+  background-image:url("../images/menu/white_evaluaciones-10.svg");
+}
+
+ul#menu_principal li span#planlector-icono{
+  background-image:url("../images/menu/blue_planlector-18.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 29px;
+  float:left;
+  margin: -4px 7px 0px -3px;
+}
+ul#menu_principal li:hover span#planlector-icono{
+  background-image:url("../images/menu/white_planlector-11.svg");
+}
+
+ul#menu_principal li span#planificaciones-icono{
+  background-image:url("../images/menu/blue_planificaciones-17.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 29px;
+  float:left;
+  margin: -4px 7px 0px -3px;
+}
+ul#menu_principal li:hover span#planificaciones-icono{
+  background-image:url("../images/menu/white_planificacion-12.svg");
+}
+
+ul#menu_principal li span#recursos-icono{
+  background-image:url("../images/menu/blue_recursos-16.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 29px;
+  float:left;
+  margin: -4px 7px 0px -3px;
+}
+ul#menu_principal li:hover span#recursos-icono{
+  background-image:url("../images/menu/white_recursos-13.svg");
+}
+
+ul#menu_principal li span#supervisor-icono{
+  background-image:url("../images/menu/blue_supervisor-15.svg");
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 29px;
+  float:left;
+  margin: -4px 7px 0px -3px;
+}
+ul#menu_principal li:hover span#supervisor-icono{
+  background-image:url("../images/menu/white_supervisor-14.svg");
+
+}
+
+ul#menu_principal img{ 
+  border: 0px;
+}
+

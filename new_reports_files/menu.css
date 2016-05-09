@@ -1,0 +1,64 @@
+#menu_principal {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#menu_principal > li a {
+  display: block;
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 3px;
+  color: #FFF;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s all lineal;
+  text-decoration: none;
+  background-color: #4d70af;
+  /* width: 101%; */
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#menu_principal > li a:hover {
+  background-color: #375c93;
+}
+.sub_menu_principal {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.sub_menu_principal > li a {
+  border-bottom: 1px dotted #ccc;
+  /* width: 100%; */
+  padding: 10px;
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+  /* background-color: #f0ffff; */
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.sub_menu_principal > li a:hover {
+  /*  background-color: #c5fbfb;*/
+}
+.active_menu {
+  /* background-color: #20bda6; */
+  display: block;
+  list-style: none;
+  margin-bottom: 3px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s all lineal;
+  text-decoration: none;
+}
+.titulo_pagina{
+  color: #4d70af;
+  font-size: 32px;
+  font-weight: 700;
+}
+.logo_colegio{
+  float:right;
+  width: 50px;
+  height: 50px;
+  margin-top:-3px;
+}
