@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://dev.kdoceduca.cl/master/curriculum/ver_cronogramas -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Banco de cronogramas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="shortcut icon" href="http://dev.kdoceduca.cl/faviconmc.ico" type="image/x-icon">
+<meta name="description" content="MasterClass, Sistema de Gestion Escolar">
+<meta name="author" content="Maximiliano Zarallo">
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="./new_reports_files/media_querys.css">
+<link rel="stylesheet" type="text/css" href="./new_reports_files/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="./new_reports_files/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="./new_reports_files/masclapp.css">
+<link rel="stylesheet" type="text/css" href="./new_reports_files/redactor.css">
+<link rel="stylesheet" type="text/css" href="./new_reports_files/animate.min.css">
+<link rel="stylesheet" type="text/css" href="./new_reports_files/menu.css">
+<link rel="stylesheet" type="text/css" href="new-report.css">
+
+<!--
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300' rel='stylesheet' type='text/css'>
+-->
+<link rel="stylesheet" type="text/css" href="./new_reports_files/inicio.css">
+<!--JS-->
+<script async="" src="./new_reports_files/analytics.js"></script><script type="text/javascript" src="./new_reports_files/jquery.js"></script>
+<script type="text/javascript" src="./new_reports_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./new_reports_files/bootbox.min.js"></script>
+<script type="text/javascript" src="./new_reports_files/usabilidad.js"></script>
+<script type="text/javascript" src="./new_reports_files/redactor.min.js"></script>
+<!-- DEMO -->
+<script type="text/javascript" src="./new_reports_files/vercronogramas.js"></script>
+<script type="text/javascript" src="./new_reports_files/evaluacion.js"></script>
+<script type="text/javascript" src="./new_reports_files/bootstrap-tab.js"></script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body>
+<div>
+<div id="cargador" style="display:none"></div>
+
+<div class="MasClapp__container"> 
+    <div class="sidebar"> 
+      <aside class="MasClapp__menu"><div class="MasClapp__brand">
+        <div class="logo_master_menu">
+            
+        </div>
+    </div>
+    <div class="MasClapp__info">
+        <div data-placement="right" class="div_foto_usuario" onclick=" window.location = server+&#39;perfil&#39; " style="cursor:pointer;" data-toggle="tooltipPerfil" data-original-title="Editar Perfil">
+            
+        </div>
+				<script>$('[data-toggle="tooltipPerfil"]').tooltip();</script>
+                <div class="user__info">
+                    <p>JEFE TECNICO</p>
+                    <a class="btn_salir" style="float:right;" href="http://dev.kdoceduca.cl/master/accesos/logout">Salir</a>
+                </div>
+                </div>
+                <ul id="menu_principal">
+                    <li>
+                        <a class="seleccion active_menu" id="2" href="javascript:;"><span id="administracion-icono"></span>Administración
+                        </a>
+                    </li>
+                        <ul id="sub_2" class="sub_menu_principal"><li class="submenu" id="Administrar Evaluaciones" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/usuarios/evaluaciones/"> Administrar Evaluaciones</a></li>
+                        <li class="submenu" id="usuarios" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/usuarios/"> Gestión de Usuarios</a></li>
+                        <li class="submenu" id="" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/admin/actualizar_nominas/"> Cargar Nominas SIGE</a></li>
+                        <li class="submenu" id="" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/datos_colegio/"> Datos de Colegio</a></li>
+</ul><li><a class="seleccion" id="107" href="javascript:;"><span id="capacitacion-icono"></span>Capacitación</a></li>
+<ul id="sub_107" class="sub_menu_principal" style="display: none;"><li class="submenu" id="" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/capacitacion"> Videos</a></li>
+</ul><li><a class="seleccion" id="64" href="javascript:;"><span id="catalogos-icono"></span>Catálogos</a></li>
+<ul id="sub_64" class="sub_menu_principal" style="display: none;"><li class="submenu" id="green" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/evaluacion/bancopruebas/"> Ver Evaluaciones</a></li>
+<li class="submenu" id="planlector" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/planlector"> Ver Plan Lector</a></li>
+<li class="submenu" id="" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/curriculum/ver_cronogramas"> Ver Cronogramas</a></li>
+</ul><li><a class="seleccion" id="11" href="javascript:;"><span id="evaluaciones-icono"></span>Evaluaciones</a></li>
+<ul id="sub_11" class="sub_menu_principal" style="display: none;"><li class="submenu" id="Pruebas del colegio" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/simce/bancopruebas/"> Mis Evaluaciones</a></li>
+<li class="submenu" id="preguntas" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/simce/"> Banco de Preguntas</a></li>
+<li class="submenu" id="Corrección Manual" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/simce/correccion_manual"> Corrección Manual</a></li>
+<li class="submenu" id="yellowgreen" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/simce/verreporte/22"> Reportes</a></li>
+<li class="submenu" id="Asignaciones" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/simce/asignaciones"> Evaluaciones Asignadas</a></li>
+</ul><li><a class="seleccion" id="117" href="javascript:;"><span id="planlector-icono"></span>Plan Lector</a></li>
+<ul id="sub_117" class="sub_menu_principal" style="display: none;"><li class="submenu" id="planlector" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/lecturas/"> Mis Lecturas</a></li>
+<li class="submenu" id="planlector" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/planlector_libro_notas/"> Libro de notas</a></li>
+<li class="submenu" id="planlector" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/lecturas/asignaciones"> Asignaciones Realizadas</a></li>
+</ul><li><a class="seleccion" id="60" href="javascript:;"><span id="planificaciones-icono"></span>Planificaciones</a></li>
+<ul id="sub_60" class="sub_menu_principal" style="display: none;"><li class="submenu" id="" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/crono/ver_cronogramas"> Mis cronogramas</a></li>
+<li class="submenu" id="" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/crono/crear_cronogramas"> Crear cronograma</a></li>
+</ul><li><a class="seleccion" id="12" href="javascript:;"><span id="recursos-icono"></span>Recursos</a></li>
+<ul id="sub_12" class="sub_menu_principal" style="display: none;"><li class="submenu" id="recursos" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/recursos/"> Banco de recursos</a></li>
+</ul><li><a class="seleccion" id="99" href="javascript:;"><span id="supervisor-icono"></span>Supervisor</a></li>
+<ul id="sub_99" class="sub_menu_principal" style="display: none;"><li class="submenu" id="" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/supervisor/resumenprofesores/"> Resumen profesores</a></li>
+<li class="submenu" id="reportepme" style="text-align:right">
+									<a href="http://dev.kdoceduca.cl/master/supervisor/reportepme/"> Reportes PME</a></li>
+</ul></ul></aside> 
+    </div> 
+    <div class="span10 columna_right"><span class="titulo_pagina"><img src="./new_reports_files/masclapp__icon.png" width="25" height="25">&nbsp;Banco de cronogramas</span>
+      <ul class="breadcrumb">
+        <li><a href="javascript:;" onclick="crono_niveles()">Lista de cronogramas disponibles</a> <span class="divider">/</span></li>
+        <li id="path_nivel"></li>
+        <li id="path_asignatura"></li>
+        <li id="path_creador"></li>
+        <input type="text" style="display:none" id="idasig">
+        <input type="text" style="display:none" id="idniv">
+        <input type="text" style="display:none" id="mes_update">
+        <input type="text" style="display:none" id="sem_update">
+        <input type="text" style="display:none" id="pos_update">
+        <input type="text" style="display:none" id="idcreador_update">
+        <input type="text" style="display:none" id="idperfil_user" value="2">
+        <input type="text" style="display:none" id="id_user" value="1">
+        <input type="text" style="display:none" id="idclase_update">
+        <div type="text" style="display:none" id="id_crono_update"></div>
+        <div id="anexos_files" style="display:none"></div>
+    </ul>
+
+
+
+        <section id="nuevos__reportes" class="nuevos__reportes">
+            <div class="niveles">
+                <h3 class="niveles__titulo">
+                    Niveles
+                </h3>
+                <ul class="niveles__lista">
+                    <li class="nivel__cbox">
+                        <a id="nivel__link" href="#1nivel">
+                            1 Nivel
+                        </a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#2nivel">2 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#3nivel">3 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#4nivel">4 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#5nivel">5 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#6nivel">6 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#7nivel">7 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#8nivel">8 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#9nivel">9 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#10nivel">10 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#11nivel">11 Nivel</a>
+                    </li>
+                    <li class="nivel__cbox"><a id="nivel__link" href="#12nivel">12 Nivel</a>
+                    </li>
+                </ul>            
+            </div>
+            
+            <div class="asignaturas">
+                <h3 class="asignaturas__titulo">
+                    Asignaturas
+                </h3>
+                <ul class="asignaturas__lista">
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                    <li class="nombre__asignatura">
+                        <a href="#">
+                            <p>Nombre de la Asignatura</p>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+
+            
+            
+
+        </section>
+        </div>
+    <div id="mostrar_cronograma_mes" class="cronogramas crono_update span5 mostrar_crono_update" style="display: none; min-height: 840px; background-color: white;"> </div>
+    <div id="mostrar_curriculum" class="cronogramas curri_update span5 fijar_curriculum mostrar_curri_update" style="display: none; min-height: 840px; background-color: white;"></div>
+</div>
+</div>
+<!--<div class="espacio" style="height: 70px;"></div>-->
+<div class="footer">
+MasterClass plataforma de gestión educativa | Soporte Telefónico: 02 25994993 | Correo soporte: soporte@kdoce.cl
+<blink> <span id="notas_versiones" class="notas_version badge badge-important" style="float:right;margin-right: 25px;">1</span></blink>
+<blink> <span id="ultima_actualizacion" class="notas_version badge badge-important" style="float:right;margin-right: 25px;">Útima actualización</span></blink>
+</div>
+
+
+<script>
+	var host = window.location.host
+	if(host != 'localhost'){
+
+			host = host.split('.').reverse()
+			host = host[1]
+
+			if(host === 'kdoceduca' || host === 'masterclass'){
+
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-39216500-3', 'auto');
+			  ga('send', 'pageview');
+			}
+	}
+
+</script>
+
+</body></html>
