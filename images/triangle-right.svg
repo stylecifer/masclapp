@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="10px" viewBox="0 0 9 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="96.0897908%" y1="97.1492082%" x2="12.7675056%" y2="92.1406508%" id="linearGradient-1">
+            <stop stop-color="#838382" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#4C4C4C" stop-opacity="0.402881567" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3.81985753,3.10937303 C4.18380706,2.69503048 4.77531519,2.69665775 5.13783537,3.10937303 L8.55922629,7.004495 C8.92317582,7.41883754 8.761036,7.75472854 8.22173953,7.75472854 L0.735953373,7.75472854 C0.185615051,7.75472854 0.0359464332,7.41721028 0.398466611,7.004495 L3.81985753,3.10937303 Z" id="Triangle-1" fill="url(#linearGradient-1)" transform="translate(4.477751, 5.276977) rotate(-270.000000) translate(-4.477751, -5.276977) "></path>
+    </g>
+</svg>

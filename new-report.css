@@ -127,9 +127,9 @@
   display: block;
   height: 6px;
   margin: 5px auto 0;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
   width: auto;
 }
 .objetivo__indicador__porcien p::after {
@@ -143,9 +143,9 @@
   display: block;
   height: 6px;
   margin: 5px auto 0;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
   width: auto;
 }
 .objetivo__indicador,
@@ -210,27 +210,37 @@
   display: flex;
   margin-left: 4%;
 }
+.asigna::after {
+  content: url("images/triangle-right.svg");
+  margin: 0 0 0 10px;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  position: relative;
+  top: 1px;
+}
 .asignaturas__contenedor {
+  line-height: 2;
+  margin-top: 100px;
   text-align: right;
-  margin-top: 70px;
 }
 .asigna__planificada {
+  background-color: #fff6ea;
   margin-left: 2%;
   width: 200px;
-  background-color: #fff6ea;
 }
 .asigna__realizada {
+  background-color: #f0fff0;
   margin-left: 2%;
   width: 200px;
-  background-color: #f0fff0;
 }
 .asigna__realizada,
 .asigna__planificada,
 .mineduc {
-  -webkit-box-shadow: #e2dfe8 0px 3px 6px;
-  box-shadow: #e2dfe8 0px 3px 6px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
+  -webkit-box-shadow: #e2dfe8 0px 3px 6px;
+  box-shadow: #e2dfe8 0px 3px 6px;
 }
 .titulo__unidad {
   -webkit-transform: rotate(90deg);

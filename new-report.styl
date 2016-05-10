@@ -76,9 +76,8 @@
 		display block
 		height 6px
 		margin 5px auto 0
-		opacity 0.5
+		opacity 0.3
 		width auto
-		
 .objetivo__indicador__porcien
 	p::after
 		background-image url("images/triangle-down.svg")
@@ -89,9 +88,8 @@
 		display block
 		height 6px
 		margin 5px auto 0
-		opacity 0.5
+		opacity 0.3
 		width auto
-
 .objetivo
 	&__indicador
 	&__indicador__porcien
@@ -125,22 +123,29 @@
 .contenedor__unidades
 	display flex
 	margin-left 4%
+.asigna::after
+	content url("images/triangle-right.svg")
+	margin 0 0 0 10px
+	opacity 0.5
+	position relative
+	top 1px
 .asignaturas__contenedor
+	line-height 2
+	margin-top 100px
 	text-align right 
-	margin-top 70px
 .asigna__planificada	
-	margin-left 2%
-	width 200px
 	background-color #FFF6EA
-.asigna__realizada		
 	margin-left 2%
 	width 200px
+.asigna__realizada		
 	background-color honeydew
+	margin-left 2%
+	width 200px
 .asigna__realizada
 .asigna__planificada
 .mineduc
-	box-shadow #E2DFE8 0px 3px 6px
 	border-radius 8px
+	box-shadow #E2DFE8 0px 3px 6px
 .titulo__unidad
 	transform rotate(90deg)
 	transform-origin left top 0
