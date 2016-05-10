@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="81px" height="30px" viewBox="0 0 81 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.9970585%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A5A5A5" stop-opacity="0.65625" offset="0%"></stop>
+            <stop stop-color="#303030" offset="83.209104%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.762850996" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M38.7047808,0.490257999 C39.6004711,-0.160499035 41.0446419,-0.166333122 41.9483621,0.490257999 L80.0757393,28.1914191 C80.9714295,28.8421761 80.7964993,29.3697189 79.6932107,29.3697189 L0.959932231,29.3697189 C-0.147022719,29.3697189 -0.326316555,28.8480102 0.577403592,28.1914191 L38.7047808,0.490257999 Z" id="Polygon-1" fill="url(#linearGradient-1)" transform="translate(40.324309, 14.684859) rotate(-180.000000) translate(-40.324309, -14.684859) "></path>
+    </g>
+</svg>

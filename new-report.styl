@@ -42,8 +42,6 @@
 			text-decoration none
 			text-shadow -1px 1px 6px #FFFFFF
 			transition-duration 0.3s
-			
-			
 .nombre__asignatura
 	&::after
 		content ""
@@ -52,3 +50,117 @@
 	justify-content initial 
 	padding 1px
 	margin 40px 35px 60px 40px
+
+.objetivo
+.indicador
+	width 50%
+	text-align center
+.datos
+	&__objetivo
+	&__indicador
+		width 50%
+		text-align center
+	&__objetivo__indicador 	
+		display flex
+		justify-content flex-end
+		border-top 1px solid rgba(0, 0, 0, 0.22)
+		p 
+			margin-top 10px
+.objetivo__indicador
+	p::after
+		background-image url("images/triangle-down.svg")
+		background-size contain
+		background-position center
+		background-repeat no-repeat
+		content ""
+		display block
+		height 6px
+		margin 5px auto 0
+		opacity 0.5
+		width auto
+		
+.objetivo__indicador__porcien
+	p::after
+		background-image url("images/triangle-down.svg")
+		background-size contain
+		background-position center
+		background-repeat no-repeat
+		content ""
+		display block
+		height 6px
+		margin 5px auto 0
+		opacity 0.5
+		width auto
+
+.objetivo
+	&__indicador
+	&__indicador__porcien
+		display flex
+		justify-content center
+.objetivo__indicador__porcien	
+	.objetivo
+	.indicador
+	.porcien
+		text-align center
+		width 30%
+.datos__objetivo__indicador__porcien
+	border-top rgba(0, 0, 0, 0.22) 1px solid
+	justify-content center
+	display flex
+	p 
+		margin-top 10px
+		
+	.datos
+		&__objetivo
+		&__indicador
+		&__porcien
+			text-align center
+			width 30%
+.unidad__titulo
+	text-align center
+.mineduc
+	width 200px
+	background-color aliceblue
+	margin-left 2%
+.contenedor__unidades
+	display flex
+	margin-left 4%
+.asignaturas__contenedor
+	text-align right 
+	margin-top 70px
+.asigna__planificada	
+	margin-left 2%
+	width 200px
+	background-color #FFF6EA
+.asigna__realizada		
+	margin-left 2%
+	width 200px
+	background-color honeydew
+.asigna__realizada
+.asigna__planificada
+.mineduc
+	box-shadow #E2DFE8 0px 3px 6px
+	border-radius 8px
+.titulo__unidad
+	transform rotate(90deg)
+	transform-origin left top 0
+	margin-left 33px
+	font-size 14px
+	top -10px
+	position relative
+.unidades 
+	color slategray
+.unidad__titulo
+	background linear-gradient(to bottom,  rgba(255,255,255,0.48) 4%,rgba(236,238,240,0.48) 52%,rgba(217,220,224,0.4) 100%)
+	border-bottom #DADDDE 1px solid
+	text-align center
+	padding-bottom 8px
+	margin 0 0 13px
+	display block
+	padding-top 8px
+	border-top-left-radius 8px
+	border-top-right-radius 8px
+	
+
+	
+	
