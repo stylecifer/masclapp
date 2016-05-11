@@ -50,6 +50,10 @@
 	justify-content initial 
 	padding 1px
 	margin 40px 35px 60px 40px
+	
+	
+// Sección de los nuevos reportes de aquí hacia abajo ¬
+//	8)
 
 .objetivo
 .indicador
@@ -107,7 +111,6 @@
 	display flex
 	p 
 		margin-top 10px
-		
 	.datos
 		&__objetivo
 		&__indicador
@@ -133,7 +136,8 @@
 	line-height 2
 	margin-top 100px
 	text-align right 
-.asigna__planificada	
+.asigna__planificada
+.extra__data	
 	background-color #FFF6EA
 	margin-left 2%
 	width 200px
@@ -146,6 +150,37 @@
 .mineduc
 	border-radius 8px
 	box-shadow #E2DFE8 0px 3px 6px
+.extra__data__realizada
+.extra__data
+	background-color #FFFFF1
+	border-bottom-left-radius 8px
+	border-top-left-radius 8px
+	box-shadow 0px 3px 30px #7B7B7B
+	margin-left -200px
+	padding-bottom 6px
+	position absolute
+	overflow auto
+	max-height 480px
+	.titulo__planificado
+	.titulo__falta__planificar
+		color white
+		font-size 16px
+		text-align center
+		padding 6px
+		margin 0
+		display block		
+	.titulo__planificado
+		background linear-gradient(to bottom, rgba(92, 191, 85, 0.78) 0%, rgba(154, 255, 121, 0.66) 100%)
+	.titulo__falta__planificar	
+		background linear-gradient(to bottom, rgba(255, 2, 60, 0.3) 0%,rgba(255, 121, 152, 0.3) 100%)
+		border-top-left-radius 8px
+.extra__data__realizada
+	background-color #F1FFF6
+	min-width 200px
+	.indicador
+		width 100%
+.extra__data
+	background-color #FFFFF1
 .titulo__unidad
 	transform rotate(90deg)
 	transform-origin left top 0
@@ -155,6 +190,11 @@
 	position relative
 .unidades 
 	color slategray
+	list-style none
+	li 
+		padding 40px 0
+	li:nth-child(2n+1)
+		background-color #F7F7F6
 .unidad__titulo
 	background linear-gradient(to bottom,  rgba(255,255,255,0.48) 4%,rgba(236,238,240,0.48) 52%,rgba(217,220,224,0.4) 100%)
 	border-bottom #DADDDE 1px solid
@@ -165,7 +205,3 @@
 	padding-top 8px
 	border-top-left-radius 8px
 	border-top-right-radius 8px
-	
-
-	
-	
