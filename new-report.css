@@ -167,16 +167,16 @@
 .objetivo__indicador__porcien .indicador,
 .objetivo__indicador__porcien .porcien {
   text-align: center;
-  width: 30%;
+  width: 66px;
 }
 .datos__objetivo__indicador__porcien {
   border-top: rgba(0,0,0,0.22) 1px solid;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -o-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -o-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -191,14 +191,18 @@
 .datos__objetivo__indicador__porcien .datos__indicador,
 .datos__objetivo__indicador__porcien .datos__porcien {
   text-align: center;
-  width: 30%;
+  width: 66px;
 }
 .unidad__titulo {
   text-align: center;
 }
 .mineduc {
   width: 200px;
-  background-color: #f0f8ff;
+  background: -webkit-linear-gradient(315deg, #f0f8ff 0%, #c0e1ff 100%);
+  background: -moz-linear-gradient(315deg, #f0f8ff 0%, #c0e1ff 100%);
+  background: -o-linear-gradient(315deg, #f0f8ff 0%, #c0e1ff 100%);
+  background: -ms-linear-gradient(315deg, #f0f8ff 0%, #c0e1ff 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #c0e1ff 100%);
   margin-left: 2%;
 }
 .contenedor__unidades {
@@ -223,17 +227,27 @@
   line-height: 2;
   margin-top: 100px;
   text-align: right;
+  margin-left: 5%;
 }
 .asigna__planificada,
 .extra__data {
-  background-color: #fff6ea;
+  background: -webkit-linear-gradient(315deg, #fff6ea 0%, #fffacd 100%);
+  background: -moz-linear-gradient(315deg, #fff6ea 0%, #fffacd 100%);
+  background: -o-linear-gradient(315deg, #fff6ea 0%, #fffacd 100%);
+  background: -ms-linear-gradient(315deg, #fff6ea 0%, #fffacd 100%);
+  background: linear-gradient(135deg, #fff6ea 0%, #fffacd 100%);
   margin-left: 2%;
   width: 200px;
 }
 .asigna__realizada {
-  background-color: #f0fff0;
+  background: -webkit-linear-gradient(315deg, #f0fff0 0%, #d5ffd5 100%);
+  background: -moz-linear-gradient(315deg, #f0fff0 0%, #d5ffd5 100%);
+  background: -o-linear-gradient(315deg, #f0fff0 0%, #d5ffd5 100%);
+  background: -ms-linear-gradient(315deg, #f0fff0 0%, #d5ffd5 100%);
+  background: linear-gradient(135deg, #f0fff0 0%, #d5ffd5 100%);
   margin-left: 2%;
-  width: 200px;
+  min-width: 200px;
+  margin-left: 2%;
 }
 .asigna__realizada,
 .asigna__planificada,
@@ -319,6 +333,36 @@
 }
 .unidades li:nth-child(2n+1) {
   background-color: #f7f7f6;
+}
+.unidad-1 {
+  background: url("images/01-uni-uno.svg") 1% center no-repeat;
+  -webkit-background-size: 7%;
+  -moz-background-size: 7%;
+  background-size: 7%;
+}
+.unidad-2 {
+  background: url("images/02-uni-dos.svg") 1% center no-repeat;
+  -webkit-background-size: 7%;
+  -moz-background-size: 7%;
+  background-size: 7%;
+}
+.unidad-3 {
+  background: url("images/03-uni-tres.svg") 1% center no-repeat;
+  -webkit-background-size: 7%;
+  -moz-background-size: 7%;
+  background-size: 7%;
+}
+.unidad-4 {
+  background: url("images/04-uni-cuatro.svg") 1% center no-repeat;
+  -webkit-background-size: 7%;
+  -moz-background-size: 7%;
+  background-size: 7%;
+}
+.unidad-5 {
+  background: url("images/05-uni-cinco.svg") 1% center no-repeat;
+  -webkit-background-size: 7%;
+  -moz-background-size: 7%;
+  background-size: 7%;
 }
 .unidad__titulo {
   background: -webkit-linear-gradient(top, rgba(255,255,255,0.48) 4%, rgba(236,238,240,0.48) 52%, rgba(217,220,224,0.4) 100%);
